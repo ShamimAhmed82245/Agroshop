@@ -1,0 +1,32 @@
+
+.dis-details{
+	display: block;
+	margin: 10px;
+	padding: 10px;
+}
+.dis-row{
+	display: flex;
+}
+
+.disimage{
+	width: 50%;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+.disimage h4{
+	margin-bottom: 8px;
+}
+.disdescription{
+	width: 50%;
+	padding: 5px;
+	margin: 5px;
+}
+.disdescription h4{
+	margin-bottom: 0px;
+}
+
+.dis-details p{
+	margin-bottom: 6px;
+	line-height: 32px;
+}

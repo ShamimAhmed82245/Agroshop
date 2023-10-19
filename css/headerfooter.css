@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+    background: #008842;
+    padding: 0px;
+}
+.nav{
+	width: 100%;
+	/*background: #008842;*/
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 20%;
+}
+.menu{
+	width: 80%;
+    line-height: 30px;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 32px;
+}
+.menu ul li a{
+	font-size: 16px;
+	color: #FFFBDB;
+	font-weight: 700;
+}
+.menu ul li a:hover{
+	font-size: 16px;
+	color: grey;
+	background-color: white;
+	font-weight: 700;
+	padding: 20px 10px;
+}
+.logo img{
+	height: 50px;
+	width: auto;
+	margin: auto;
+	border-radius: 50%;
+	margin-top: 4px;
+}
+
+/*<!-- footer section start-->*/
+
+.footer1{
+	display: flex;
+	background: #272727;
+	align-items: center;
+	/*justify-content: space-between;*/
+	margin: 20px 0px 0px 0px;
+	color: white;
+	padding: 10px;
+	height: 40vh;
+}
+.com-desc{
+	width: 30%;
+	padding: 8px;
+}
+.com-desc p{
+	line-height: 28px;
+	text-align: justify;
+}
+.com-desc h3{
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+}
+.feature{
+	width: 30%;
+	padding: 8px;
+}
+.feature ul li{
+	list-style: none;
+	margin-top: 5px;
+	color: white;
+	font-size: 16px;
+}
+.feature ul li a{
+	color: white;
+	font-size: 16px;
+	transition: 0.5s;
+}
+.feature ul li a:hover{
+	color: #1B9B0A;
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+.feature p{
+	font-weight: 600;
+	font-size: 20px;
+}
+.comunication{
+	width: 40%;
+}
+.comunication p{
+	font-weight: 600;
+	font-size: 20px;
+}
+.comunication-des{
+	display: flex;
+	line-height: 35px;
+}
+.comunication-des i{
+	line-height: 28px;
+	padding: 8px;
+	font-size: 25px;
+	color: #1B9B0A;
+}
+.comunication-des p{
+	margin-top: 0px;
+	padding-top: 0px;
+}

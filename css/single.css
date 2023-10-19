@@ -1,0 +1,188 @@
+
+.single-seed-details{
+	display: flex;
+	width: 1140px;
+	margin: auto;
+}
+.single-seed-details .single-description{
+	width: 40%;
+	text-align: left;
+}
+.single-seed-details .single-description ol{
+	padding-left: 30px;
+}
+
+.single-seed-details .single-description ol li{
+	line-height: 30px;
+}
+.single-image{
+	width: 60%;
+	padding: 10px;
+	display: inline;
+	text-align: right;
+}
+.single-image img{
+	margin-top: 25px;
+	max-width: 45%;
+	height: auto;
+}
+.single-seed-details .single-description p{
+	line-height: 30px;
+	padding-left: 10px;
+}
+.single-seed-details .single-description h4{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.single-prod-des{
+	text-align: center;
+	justify-content: left;
+	align-items: center;
+}
+.single-prod-des ul li{
+	list-style: none;
+	line-height: 30px;
+	margin-left: 376px;
+}
+.single-image .pbtn {
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    background: #01652F;
+    color: white;
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 189px;
+    height: 45px;
+    margin-left: 385px;
+}
+.single-image .buy-btn{
+	margin-left: 8px;
+	padding: 8px 16px;
+}
+.single-image .pbtn:hover{
+	background: red;
+	cursor: pointer;
+}
+
+ /*review css start here*/
+.review-submit button{
+	background-color: #72BF44;
+	color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.review, .customer-review,.rating-count,.review-rating{
+	line-height: 30px;
+	background: #F2F2F2;
+	padding: 10px;
+}
+
+.single-review{
+	background: #fff;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+}
+.rating-count{
+	padding-left: 150px;
+	text-align: center;
+}
+.rating-count .fa,.single-review .fa{
+	padding: 2px;
+	color: #2DDC77;
+}
+/*rating*/
+
+/*html,body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	font-family: Arial, sans-serif;
+}*/
+
+/*.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}*/
+
+.review-rating{
+	display: flex;
+}
+
+.rating-wrap{
+	/*max-width: 480px;
+	margin: auto;
+	padding: 15px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,.2);*/
+	text-align: center;
+	background: #F2F2F2;
+	padding: 10px;
+}
+
+.center{
+	width: 162px; 
+	margin: auto;
+}
+
+
+#rating-value{	
+	width: 110px;
+	margin: 40px auto 0;
+	padding: 10px 5px;
+	text-align: center;
+	box-shadow: inset 0 0 2px 1px rgba(46,204,113,.2);
+}
+
+/*styling star rating*/
+.rating{
+	border: none;
+	float: left;
+}
+
+.rating > input{
+	display: none;
+}
+
+.rating > label:before{
+	content: '\f005';
+	font-family: FontAwesome;
+	margin: 5px;
+	font-size: 1.5rem;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.rating > .half:before{
+	content: '\f089';
+	position: absolute;
+	cursor: pointer;
+}
+
+
+.rating > label{
+	color: #ddd;
+	float: right;
+	cursor: pointer;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label{
+	color: #2ce679;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label{
+	color: #2ddc76;
+}

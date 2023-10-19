@@ -1,0 +1,62 @@
+
+.seed-details{
+	display: flex;
+}
+.seed-details .description{
+	width: 40%;
+	padding: 50px;
+	text-align: left;
+}
+.seed-details .description ol{
+	padding-left: 30px;
+}
+
+.seed-details .description ol li{
+	line-height: 30px;
+}
+.image{
+	width: 60%;
+	padding: 10px;
+	display: inline;
+	text-align: center;
+}
+.image img{
+	margin-top: 25px;
+	max-width: 45%;
+	height: auto;
+}
+.seed-details .description p{
+	line-height: 30px;
+	padding-left: 10px;
+}
+.seed-details .description h4{
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+.prod-des{
+	text-align: center;
+	justify-content: left;
+	align-items: center;
+}
+.prod-des ul li{
+	list-style: none;
+	line-height: 30px;
+}
+.image .pbtn{
+	padding: 8px;
+	font-size: 20px;
+	border: none;
+	background: #01652F;
+	color: white;
+	border-radius: 5px;
+	margin-top: 3px;
+}
+.image .buy-btn{
+	margin-left: 8px;
+	padding: 8px 16px;
+}
+.image .pbtn:hover{
+	background: red;
+	cursor: pointer;
+}
+

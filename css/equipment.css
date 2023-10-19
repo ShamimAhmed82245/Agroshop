@@ -1,0 +1,39 @@
+
+.prod-des{
+	text-align: center;
+	justify-content: left;
+	align-items: center;
+}
+.prod-des ul li{
+	list-style: none;
+	line-height: 30px;
+}
+.image .pbtn{
+	padding: 8px;
+	font-size: 20px;
+	border: none;
+	background: #01652F;
+	color: white;
+	border-radius: 5px;
+	margin-top: 3px;
+}
+
+
+.roof{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+.roof-container{
+	/*width: 100%;
+	text-align: center;*/
+	background-color: whitesmoke;
+	padding: 10px;
+}
+.mySlides img{
+	height: 300px;
+	width: 1000px;
+}
+
+
+/*<!-- footer section start-->*/

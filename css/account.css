@@ -1,0 +1,95 @@
+.account{
+ 	display: flex;
+ 	background: #F1F2F4;
+ 	height: 120vh;
+ 	margin-bottom: -20px;
+}
+.order-page{
+	display: flex;
+ 	background: #F1F2F4;
+ 	height: 200vh;
+ 	margin-bottom: -20px;
+}
+.account-sidebar{
+	width: 35%;
+	align-items: center;
+	
+	/*text-align: center;*/
+}
+.profil-pic,.sub-menu1{
+	/*align-items: center;*/
+	background: #FFFFFF;
+	font-size: 25px;
+	width: 250px;
+	margin: 15px;
+	padding-top: 15px;
+	text-align: center;
+	border: 1px;
+	box-shadow: 3px 3px 4px 2px rgb(247, 249, 249);
+}
+.profil-pic{
+	height: 70px;
+}
+.sub-menu1{
+	height: 250px;
+	line-height: 40px;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+	padding-left: 25px;
+}
+.sub-menu1 ul li {
+	list-style: none;
+	border-bottom: 1px dotted;
+}
+.account-details{
+	width: 55%;
+	height: 600px;
+	align-items: center;
+	line-height: 60px;
+	font-size: 25px;
+	background: #FFFFFF;
+	padding: 20px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: 1px solid;
+}
+.view-order{
+	width: 55%;
+	/*height: 600px;*/
+	align-items: center;
+	line-height: 60px;
+	font-size: 25px;
+	background: #FFFFFF;
+	/*padding: 20px;*/
+	/*margin-top: 15px;*/
+	/*border-radius: 5px;*/
+	/*//border: 1px solid;*/
+}
+.order-track{
+	display: block;
+}
+.pending{
+	display: flex;
+}
+.input-group{
+	display: block;
+}
+.input-group input{
+	height: 40px;
+	width: 300px;
+	font-size: 18px;
+	display: block;
+}
+
+.account-details .acc-button{
+	
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.account-details .acc-button button{
+	width: 30%;
+	background: #0397D3;
+}
